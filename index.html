@@ -10,7 +10,7 @@
 <header>
   <a class="brand" href="index.html">SURAIYA TAIRIN, Ph.D.</a>
   <nav>
-    <a href="index.html" class="active" aria-current="page">Home</a><a href="index.html#research">Research</a><a href="index.html#news">News</a><a href="publications.html">Publications</a><a href="academics.html">Academics &amp; Awards</a><a href="teaching.html">Teaching</a><a href="experience.html">Experience</a><a href="service.html">Service</a><a href="mailto:sutairin@pvamu.edu">Contact</a>
+    <a href="index.html" class="active" aria-current="page">Home</a><a href="index.html#research">Research</a><a href="index.html#news">News</a><a href="publications.html">Publications</a><a href="academics.html">Academics &amp; Awards</a><a href="teaching.html">Teaching</a><a href="experience.html">Experience</a><a href="service.html">Service</a>
   </nav>
 </header>
 
@@ -19,7 +19,11 @@
 <section id="about" class="about">
   <aside>
     <img class="portrait" src="img/suraiya-tairin.jpg" alt="Portrait of Suraiya Tairin">
-    <p>318 S.R. Collins Engineering Building<br><a href="tel:+19362619872">(936) 261-9872</a><br><a href="mailto:sutairin@pvamu.edu">sutairin@pvamu.edu</a></p>
+    <ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><span>318 S.R. Collins Engineering Building, Prairie View, Texas 77446, United States</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><a href="tel:+19362619872">(936) 261-9872</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm8 7.2L20 6H4l8 5.2zM4 8.3V18h16V8.3l-8 5.2-8-5.2z"/></svg><a href="mailto:sutairin@pvamu.edu">sutairin@pvamu.edu</a></li>
+    </ul>
     <hr>
     <h3>Research interests</h3>
     <p class="tags">AI/ML systems · Generative AI · LLMs · Distributed computing · Applied AI</p>
@@ -36,11 +40,7 @@
   <aside>
     <div class="panel">
       <h3>Current collaborations</h3>
-      <p><b>NCIT @ PVAMU</b><br>Currently working on a research project on transportation.</p>
-    </div>
-    <div class="panel">
-      <h3>Mentoring</h3>
-      <p>Jadarius Dionte Wiley<br>Haley Dawn Harper</p>
+      <p><b>NCIT @ PVAMU</b><br>Currently working on applying AI to transportation research.</p>
     </div>
   </aside>
 </section>
@@ -51,12 +51,12 @@
   <div class="grid">
 
     <button class="card" type="button">
-      <img src="img/moe.png" alt="Illustration of Mixture-of-Experts inference on GPUs">
-      <h3>Resource-efficient LLM inference</h3>
-      <p>Memory-efficient Mixture-of-Experts inference and GPU optimization.</p>
+      <img src="img/scheduling.png" alt="Illustration of a router sending requests to a few active experts on GPUs">
+      <h3>LLM inference</h3>
+      <p>Improving the efficiency of LLM inference (e.g., Mixture-of-Experts LLM inference in multi-GPU and multi-node settings, with a focus on memory efficiency).</p>
       <span class="more-link">Learn more →</span>
       <div class="more" hidden>
-        <p>Optimizing large language model (LLM) inference in multi-GPU, multi-node settings, with a focus on memory- and communication-efficient Mixture-of-Experts (MoE) inference.</p>
+        <p>Improving the efficiency of LLM inference (e.g., Mixture-of-Experts LLM inference in multi-GPU and multi-node settings, with a focus on memory efficiency).</p>
         <h4>Relevant works</h4>
         <ul>
           <li>eMoE: Task-aware Memory Efficient Mixture-of-Experts-Based (MoE) Model Inference <a href="https://arxiv.org/abs/2503.06823">(Preprint ↗)</a></li>
@@ -81,7 +81,7 @@
     </button>
 
     <button class="card" type="button">
-      <img src="img/scheduling.png" alt="Illustration of ML jobs being scheduled onto GPU resources">
+      <img src="img/moe.png" alt="Illustration of ML job queues being scheduled onto GPU servers">
       <h3>ML job scheduling</h3>
       <p>Resource-aware scheduling for dynamic ML workloads.</p>
       <span class="more-link">Learn more →</span>
