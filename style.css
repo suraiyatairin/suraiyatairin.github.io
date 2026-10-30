@@ -37,3 +37,4 @@ main.subpage section:first-child h2{margin-top:10px}
 .contact a{display:inline;margin:0;word-break:break-word}
 section[id]{scroll-margin-top:82px}
 @media(max-width:650px){header{position:static}section[id]{scroll-margin-top:12px}}
+.interests-fig{display:block;width:100%;height:auto;margin:6px 0 4px;border-radius:10px;border:1px solid var(--line)}
