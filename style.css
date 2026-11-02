@@ -45,7 +45,7 @@ section[id]{scroll-margin-top:82px}
 .panel .sub-head{margin:0 0 4px}
 .panel ul.people{margin:0 0 12px;padding-left:20px;font-size:13px;color:#6f5a62}
 .panel ul.people li{margin-bottom:3px}
-.profile-links{display:flex;gap:12px;margin:4px 0 2px 2px}
-.profile-links a{display:inline-flex;margin:0;border-radius:8px;transition:transform .15s,box-shadow .15s}
+.profile-links{display:flex;gap:10px;margin:4px 0 2px 2px}
+.profile-links a{display:inline-flex;margin:0;border-radius:6px;transition:transform .15s,box-shadow .15s}
 .profile-links a:hover{transform:translateY(-2px);box-shadow:0 4px 10px #24101926}
-.profile-links svg{width:30px;height:30px;display:block}
+.profile-links svg{width:22px;height:22px;display:block}
